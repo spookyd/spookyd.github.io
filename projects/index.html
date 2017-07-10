@@ -1,0 +1,46 @@
+---
+layout: default
+title: Projects
+tags: project
+nav_id: projects
+---
+
+{% assign projects = site.projects | sort: 'order' | reverse %}
+{% for project in projects %}
+{% if project.show == true %}
+<div class="mdl-cell mdl-card mdl-shadow--4dp">
+    <!--<div class="mdl-card__media">-->
+    <!--<img class="article-image" src=" images/example-work01.jpg" border="0" alt="">-->
+    <!--</div>-->
+    <div class="mdl-card__title text-card-top">
+        <div class="text-card-title">{{ project.title }}</div>
+        <div class="subtext clear-card-subtext center-text">{{ project.company }}</div>
+        <div class="subtext clear-card-subtext center-text">{{ project.display_date }}</div>
+    </div>
+
+    <div class="mdl-card__supporting-text flex-column no-top-padding">
+        <div class="portfolio-description">
+
+            {{ project.excerpt }}
+
+        </div>
+        <div class="flex-center flex-wrap">
+            {% for tag in project.tags %}
+            {% endfor %}
+        </div>
+    </div>
+
+    {% if project.link %}
+    <div class="mdl-card__actions mdl-card--border center-text">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href={{ project.link }}>
+            {% if project.link_name == "Github" %}
+            <i class="fa fa-github icon-button icon-margin" aria-hidden="true"></i>
+            {% else %}
+            {{ project.link_name }}
+            {% endif %}
+        </a>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+{% endfor %}
