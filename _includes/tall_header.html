@@ -1,0 +1,13 @@
+<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+    <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+    </div>
+    <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        <h1>{{ site.title }}</h1>
+    </div>
+    <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+    </div>
+    {% include tabs.html %}
+    {% if site.show_social_icons %}
+    {% include social_links.html %}
+    {% endif %}
+</header>

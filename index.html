@@ -1,0 +1,51 @@
+---
+layout: default
+nav_id: overview
+---
+<section class="section--hero mdl-color--primary">
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
+            <h1>Luke Davis</h1>
+            <h5 class="mdl-color-text--grey-50">
+                Senior Software Developer
+                <p class="mdl-color-text--grey-200">
+                    with a desire for adventure and passion for travelling.<br/>
+                    <i>(Oh, did I mention I also love software development with a focus on mobile, server side, and IoT
+                        technologies.)</i>
+                </p>
+            </h5>
+        </div>
+    </div>
+</section>
+<div class="mdl-layout__tab-panel is-active" id="{{ page.nav_id }}">
+    <section class="section--center mdl-grid mdl-grid--no-spacing center-items">
+        <div class="mdl-cell mdl-cell--12-col">
+            <h3>Projects</h3>
+        </div>
+        {% assign projects = site.projects | sort: 'order' | reverse %}
+        {% for project in projects %}
+        {% if project.show_in_overview == true %}
+        <div class="mdl-cell--2-col"></div>
+        {% include image_card.html card_content=project width=8 %}
+        <div class="mdl-cell--2-col"></div>
+        {% endif %}
+        {% endfor %}
+        <div class="mdl-cell--12-col center-content">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
+                    onclick="location.href='/projects'">
+                View All
+            </button>
+        </div>
+    </section>
+    <section class="section--footer mdl-color--white mdl-grid">
+        <div class="mdl-cell mdl-cell--12-col mdl-typography--text-center">
+            <h3><p>View my work experience</p>Want to learn more?</h3>
+        </div>
+        <div class="mdl-cell--12-col center-content">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                    onclick=" window.open('resume/luke_davis.pdf','_blank')">
+                Resume
+            </button>
+        </div>
+    </section>
+</div>
