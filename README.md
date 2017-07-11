@@ -1,6 +1,6 @@
 # Personal Website
 
-[Luke Davis](http://www.pixyll.com)
+[Luke Davis](http://spookyd.github.io)
 
 This project is an adaptation of [Pixyll]((http://www.pixyll.com). I have personalized by adopting some material design components. 
 
