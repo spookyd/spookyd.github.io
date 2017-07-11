@@ -7,6 +7,8 @@ baseurl:     ""
 url:         "https://spookyd.github.io"
 date_format: "%b %-d, %Y"
 
+for_hire: true
+
 collections:
   projects:
     output: true
