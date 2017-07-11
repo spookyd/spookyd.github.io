@@ -186,6 +186,19 @@ html, body {
     padding: 0 0 32px 0;
     margin: 0 -8px -8px -8px;
 }
+
+.mdl-mega-footer__social-btn {
+    cursor: pointer;
+}
+
+.mdl-mega-footer__social-btn.linked-in {
+    background: url('/images/LinkedIn_white.png') no-repeat center;
+}
+
+.mdl-mega-footer__social-btn.github {
+    background: url('/images/GitHub-Mark_white.png') no-repeat center;
+}
+
 .site-layout section.section--center .section__text:not(:last-child) {
     border-bottom: 1px solid rgba(0,0,0,.13);
 }
@@ -236,7 +249,7 @@ html, body {
 .demo-card-wide > .mdl-card__title {
     color: #fff;
     height: 176px;
-    background: url('../assets/demos/welcome_card.jpg') center / cover;
+    /*background: url('../assets/demos/welcome_card.jpg') center / cover;*/
 }
 .demo-card-wide > .mdl-card__menu {
     color: #fff;
