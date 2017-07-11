@@ -3,6 +3,7 @@ layout: page
 title: About Me
 tags: about
 nav_id: about
+show_resume: true
 ---
 
 My interest in technology started as far back as I can remember. 

@@ -12,6 +12,9 @@
     {% include fixed_header.html %}
     <main class="mdl-layout__content">
         {{ content }}
+        {% if page.show_resume %}
+        {% include resume_footer.html %}
+        {% endif %}
         {% include footer.html %}
     </main>
 
