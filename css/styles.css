@@ -68,7 +68,7 @@ html, body {
 }
 .site-layout .mdl-card__actions {
     margin: 0;
-    padding: 4px 40px;
+    padding: 8px 40px;
     color: inherit;
 }
 .site-layout .mdl-card__actions a {
@@ -207,8 +207,9 @@ html, body {
 .site-layout .mdl-card .mdl-card__supporting-text > h3:first-child {
     margin-bottom: 24px;
 }
-.site-layout .mdl-layout__tab-panel:not(#overview) {
-    background-color: white;
+
+.site-layout section {
+    margin-bottom: 16px;
 }
 
 .site-layout #features section {

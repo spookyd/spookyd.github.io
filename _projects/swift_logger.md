@@ -4,7 +4,7 @@ title: "Swift Logger"
 company: "Independent Project"
 display_date: "June 2017"
 tags: 
-- Swift 3
+- Swift
 show: true
 show_in_overview: true
 link: https://github.com/spookyd/swift-logger

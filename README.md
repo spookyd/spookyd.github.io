@@ -9,8 +9,8 @@ This project is an adaptation of [Pixyll]((http://www.pixyll.com). I have person
 If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
 
 ```
-$ git clone git@github.com:johnotander/pixyll.git
-$ cd pixyll
+$ git clone git@github.com:spookyd/spookyd.github.io.git
+$ cd spookyd.github.io
 $ gem install bundler # If you don't have bundler installed
 $ bundle install
 ```
@@ -26,17 +26,17 @@ Fork the repo, and then clone it so you've got the code locally.
 
 ### Modify the `_config.yml`
 
-The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
+The `_config.yml` located in the root of the spookyd.github.io directory contains all of the configuration details
 for the Jekyll site. The defaults are:
 
 ```yml
 # Site settings
-title: Pixyll
+title: Your Title
 email: your_email@example.com
-author: John Otander
+author: Your Name
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl: ""
-url: "http://pixyll.com"
+url: "http://your.site.com"
 
 # Build settings
 markdown: kramdown
@@ -115,10 +115,6 @@ To configure Disqus, set up a [Disqus site](https://disqus.com/admin/create/) wi
 
 To configure txtpen, set up a [txtpen site](https://txtpen.com/go) with the same name as your site. Then, in `_config.yml`, edit the `txtpen_sitename` value to enable txtpen
 
-### Customizing the CSS
-
-All variables can be found in the `_sass/_variables.scss` file, toggle these as you'd like to change the look and feel of Pixyll.
-
 ### Page Animation
 
 If you would like to add a [fade-in-down effect](http://daneden.github.io/animate.css/), you can add `animated: true` to your `_config.yml`.
@@ -171,7 +167,7 @@ And lastly - if you happen to write in language other than English be sure to ch
 If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
 
 ```
-git remote add upstream https://github.com/johnotander/pixyll.git
+git remote add upstream https://github.com/spookyd/spookyd.github.io.git
 ```
 
 #### Pull in the latest changes
