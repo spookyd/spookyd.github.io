@@ -283,3 +283,11 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
+.form-stacked {
+    min-height: 300px;
+}
+
+.form-stacked .mdl-textfield {
+    width: 100%;
+}

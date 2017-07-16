@@ -1,30 +1,50 @@
 ---
-layout: page
-title: Contact Me
+layout: center
 permalink: /contact/
 tags: contact
 ---
 
-<div class="py2">
-  {% if site.ajaxify_contact_form %}
-    <form class="form-stacked">
-      <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
-      <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content }}" style="resize: vertical"></textarea>
-      <input type="text" name="_gotcha" style="display:none" />
-      <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit }}</button>
-    </form>
-  {% else %}
-    <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
-      <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
-      <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content }}" style="resize: vertical"></textarea>
-      <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
-      <input type="hidden" name="_subject" value="{{ site.text.contact.subject }}" />
-      <input type="text" name="_gotcha" style="display:none" />
-      <input type="submit" class="button button-blue button-big mobile-block" value="{{ site.text.contact.submit }}">
-    </form>
-  {% endif %}
-</div>
+<section class="section--center mdl-grid mdl-grid--no-spacing">
+    <div class="mdl-cell mdl-cell--12-col">
+        <h1>Contact Me</h1>
+        <div id="contact-me">
+            {% if site.ajaxify_contact_form %}
+            <form class="form-stacked">
+                <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
+                <textarea type="text" name="content" class="field-light" rows="5"
+                          placeholder="{{ site.text.contact.content }}"
+                          style="resize: vertical"></textarea>
+                <input type="text" name="_gotcha" style="display:none"/>
+                <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit
+                    }}
+                </button>
+            </form>
+            {% else %}
+            <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="email" id="email" name="email"/>
+                    <label class="mdl-textfield__label" for="email">Email</label>
+                    <span class="mdl-textfield__error">Not a valid email address</span>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield">
+            <textarea class="mdl-textfield__input" type="text" id="content" name="content" rows="3"
+                      pattern=".+"></textarea>
+                    <label class="mdl-textfield__label" for="content">{{ site.text.contact.content }}</label>
+                    <span class="mdl-textfield__error">I'm sure you have something more to say.</span>
+                </div>
+                <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/"/>
+                <input type="hidden" name="_subject" value="{{ site.text.contact.subject }}"/>
+                <input type="text" name="_gotcha" style="display:none"/>
+                <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">{{
+                    site.text.contact.submit }}
+                </button>
+            </form>
+            {% endif %}
+        </div>
 
-{% if site.ajaxify_contact_form %}
-  {% include ajaxify_content_form.html %}
-{% endif %}
+        {% if site.ajaxify_contact_form %}
+        {% include ajaxify_content_form.html %}
+        {% endif %}
+    </div>
+</section>
+
