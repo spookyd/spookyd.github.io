@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "colors": {
+      "primary": "#2196f3",
+      "secondary": "#64B5F6",
+      "accent": "#D50000"
+    }
+  },
+  "basics": {
+    "name": "Luke Davis",
+    "label": "Software Developer",
+    "picture": "luke_davis_profile.png",
+    "email": "lpdavis13@gmail.com",
+    "emailIcon": "ic_email_white.png",
+    "phone": "(740)334-8424",
+    "phoneIcon": "ic_phone_iphone_white.png",
+    "website": "https://lucky13.technology",
+    "websiteIcon": "ic_link_white.png",
+    "summary": "Self-driven individual with unmatched passion to solve business needs utilizing new technologies while continuing to hone software craftsmanship",
+    "about": "My interest in technology started as far back as I can remember. I was the type of kid that would ask for a Walkman and have it disassembled in a matter of minutes, just to see how it worked. I wrote my first program in a high school robotics class. From that moment on I have been fascinated with electronics, software, and connecting the two together. After graduating high school, I decided to go straight into a career path. A great area, which I felt, was a blend of both areas of interest would be working as an electrician. I spent the next 12 years working, primarily on, commercial and industrial electrical installation projects. The projects ranged anywhere from automated lighting systems to industrial scale recycling automation. About 8 years into my career, as an electrician, I felt that I needed to take myself to the next level and focus more on the software aspect. So, I went back to school full-time. Directly out of college I got a job with an insurance company as a developer. This was about the same time as the advent of smart phones. After my first mobile project I found myself very attracted to developing on mobile platforms. The primary reason being it is an intimate technology where we, as developers, get the opportunity to directly impact a user's life. I have since worked on many iOS and Android projects, most recently and notably the Wendy's Mobile Ordering application. Throughout the years I have worked on many aspects of the technology stack ranging from Bluetooth 4 to back-end services and databases. In my free time I like developing anything IoT related, wood working, traveling, hiking, and spending time with my family.",
+    "location": {
+      "address": "297 Sumption Dr.",
+      "postalCode": "43230",
+      "city": "Columbus",
+      "countryCode": "US",
+      "region": "Ohio",
+      "icon": "ic_location_on_white.png"
+    },
+    "profiles": [{
+      "network": "Linked In",
+      "username": "lpdavis",
+      "url": "https://www.linkedin.com/in/lpdavis/",
+      "icon": "LinkedIn_white.png"
+    },{
+      "network": "Github",
+      "username": "spookyd",
+      "url": "https://github.com/spookyd",
+      "icon": "GitHub-Mark_white.png"
+    }]
+  },
+  "work": [{
+    "company": "Lucky 13 Technologies, LLC.",
+    "position": "Owner, Lead Developer",
+    "location": "Columbus, OH",
+    "website": "http://lucky13.technology",
+    "startDate": "10/2014",
+    "endDate": "present",
+    "summary": "Partnering with software firms to build custom mobile applications and backend services for customers such as Scotts® and Bold Penguin.",
+    "highlights": [
+      "Developed a custom Android based door to door sales app which allowed for card present credit card transactions",
+      "Provided support for existing PHP application used for sales rep management",
+      "Created an API only Rails 5 application used for an insurance eligibility rules engine"
+    ]
+  },{
+    "company": "The Wendy’s Company",
+    "position": "Lead Mobile Application Architect, eCommerce",
+    "location": "Columbus, OH",
+    "website": "http://wendys.com",
+    "startDate": "06/2015",
+    "endDate": "07/2017",
+    "summary": "Lead engineer on the Wendy's eCommerce Application Development team with primary focus on the iOS and Android platforms, while providing technical guidance on best development and Scrum practices across the eCommerce Application Department.",
+    "highlights": [
+      "Led iOS application refactor of the current Wendy's application involving converting code base from a singular Objective C code base to Swift modules, which led to a 1438% decrease in reported bugs",
+      "Guided Junior and Core members in TDD practices, resulting in a code coverage increase from 6% to 75%",
+      "Partnered with stakeholders and development team to align requirements on the new Wendy's Loyalty Program",
+      "Worked directly with UX team to ensure a unified and polished product"
+    ]
+  },{
+    "company": "The Wendy’s Company",
+    "position": "Senior Application Developer, eCommerce",
+    "location": "Columbus, OH",
+    "website": "http://wendys.com",
+    "startDate": "11/2014",
+    "endDate": "06/2015",
+    "summary": "Joined Wendy's to form and lead new eCommerce development team as part of the new Wendy's innovation space, 90º Labs. Worked with the department Director and other lead engineers to establish the foundation of the new department",
+    "highlights": [
+      "Developed a Kiosk POC, which has led to the self-ordering kiosks that are deployed today",
+      "Leveraged Bluetooth Beacons and Geofencing techniques to provide a unique ordering experience for iOS and Android users",
+      "Focused effort on prototyping many of the features now implemented in the Wendy's mobile applications",
+      "Instrumental in the development of the product foundation, CI, and Automation Scripts to support the new iOS, Android, and Web applications; https://itunes.apple.com/us/app/wendys/id540518599?mt=8, https://play.google.com/store/apps/details?id=com.wendys.nutritiontool&hl=en"
+    ]
+  },{
+    "company": "Leading EDJE, LLC.",
+    "position": "Solutions Developer",
+    "location": "Columbus, OH",
+    "website": "http://leadingedje.com/",
+    "startDate": "02/2013",
+    "endDate": "11/2014",
+    "summary": "Member of solutions delivery team, providing expertise in custom applications development and business solutions utilizing leading edge technologies.",
+    "highlights": [
+      "Developed new features on a client/admin portal project utilizing Java backend and frontend technologies",
+      "Built a native Android forklift management application; also, exposed HTTP endpoints using Java technologies, http://www.crown.com/en-us/fleet-management/infolink.html",
+      "Created a warehouse fulfillment solution proof of concepts leveraging Google Glass and Bluetooth 4.0",
+      "Performed security audit, based on OWASP for mobile guidelines, for DSW’s eCommerce iOS application"
+    ]
+  },{
+    "company": "Motorists Insurance Group",
+    "position": "Developer",
+    "location": "Columbus, OH",
+    "website": "https://www.motoristsinsurancegroup.com/who-we-are/affiliates/motorists-mutual",
+    "startDate": "06/2011",
+    "endDate": "02/2013",
+    "summary": "Developed and supported new features for existing home and life insurance agent portals as well as the Motorists Mobile Application projects.",
+    "highlights": [
+      "Provided support for Home Lines Agent Portal application utilizing Java technologies",
+      "Migrated the internal Life Insurance Workflow system from VB to C# along with creating a unit test suite",
+      "Mentored in Android and iOS development, testing, and deployment for the Motorists Insurance and Iowa Insurance mobile applications; https://itunes.apple.com/us/app/motorists-mutual-mobile/id503935355?mt=8, https://play.google.com/store/apps/details?id=com.motorists&hl=en"
+    ]
+  },{
+    "company": "DesignLinx, LLC.",
+    "position": "Partner, Application Developer",
+    "location": "Newark, OH",
+    "website": "",
+    "startDate": "2012",
+    "endDate": "2013",
+    "summary": "Designed and created an interactive wedding planning website, Wedding Linx, which connected DIY wedding planners with vendors.",
+    "highlights": [
+      "Leveraged ASP.NET 3.5 to create wedding planning platform with in app messaging, rating, and vendor bidding systems",
+      "Designed application data model and implemented on SQL Server database, including tables, stored procedures, and triggers",
+      "Developed a module integrated with authorize.net to add payment functionality to the site"
+    ]
+  },{
+    "company": "Goodin Electric",
+    "position": "Electrical Journeyman, Foreman",
+    "location": "Newark, OH",
+    "website": "http://www.goodinelectric.com/",
+    "startDate": "2000",
+    "endDate": "2012",
+    "summary": "Lead foreman on over 20 commercial and industrial projects, with varying environments, team sizes and complexity.",
+    "highlights": [
+      "Installation of a diverse set of electrical systems, ranging from advanced lighting controls to custom plastic recycling automation to commercial grade kitchen equipment",
+      "Collaborated on design and installation of multiple types of motor control applications",
+      "Worked on, and built, industrial automation machinery utilizing both low and high voltage electrical systems"
+    ]
+  }],
+  "education": [{
+    "institution": "DeVry University",
+    "area": "Computer Engineering Technologies",
+    "studyType": "Bachelor of Science",
+    "startDate": "06/2007",
+    "endDate": "07/2011",
+    "location": "Columbus, OH",
+    "gpa": "3.96"
+  }],
+  "certifications": [{
+    "title": "Professional Scrum Master™ level I (PSM I)",
+    "date": "08/18/2014",
+    "awarder": "Scrum.org",
+    "summary": "People who have passed PSM I, achieving certification, demonstrate a fundamental level of Scrum mastery. PSM I certificate holders prove that they understand Scrum as described in the Scrum Guide and the concepts of applying Scrum.  PSM I holders have a consistent terminology and approach to Scrum."
+  },{
+    "title": "Professional Scrum Developer™ (PSD)",
+    "date": "08/16/2013",
+    "awarder": "Scrum.org",
+    "summary": "The Professional Scrum Developer™ (PSD) assessment is available to anyone who wishes to validate their knowledge of how to build complex software products using Scrum. Those that pass the assessment will receive the industry recognized PSD Certification to demonstrate their mastery of the content."
+  },{
+    "title": "OCPJP (Oracle Certified Professional Java Programmer)",
+    "date": "07/19/2013",
+    "awarder": "Oracle",
+    "summary": "An Oracle Certified Professional, Java SE 6 Programmer has experience using the Java programming language, understands the basic syntax and structure of the Java programming language and can create Java technology applications that run on server and desktop systems using J2SE 6.0."
+  }],
+  "awards": {
+    "title": "The \"Do the Right Thing\" award",
+    "date": "2015",
+    "awarder": "The Wendy's Company",
+    "summary": ""
+  },
+  "skills": [{
+    "name": "iOS Development",
+    "level": "Master",
+    "keywords": [
+      "Swift 3",
+      "Objective C",
+      "XCTest",
+      "Carthage",
+      "Alamofire"
+    ]
+  },{
+    "name": "Android Development",
+    "level": "Master",
+    "keywords": [
+      "Android 7",
+      "Java",
+      "Volley",
+      "Mockito"
+    ]
+  },{
+    "name": "Backend Development",
+    "level": "Master",
+    "keywords": [
+      "Node.js (Express)",
+      "ES5/ES6",
+      "Ruby on Rails 5",
+      "Spring",
+      "Docker"
+    ]
+  },{
+    "name": "Clean Code",
+    "level": "Master",
+    "keywords": [
+      "Object Oriented Design",
+      "SOLID",
+      "Protocol Oriented Design",
+      "TDD/BDD"
+    ]
+  },{
+    "name": "Database",
+    "level": "Proficient",
+    "keywords": [
+      "Postgres",
+      "MySQL",
+      "Mongo",
+      "SQLite"
+    ]
+  },{
+    "name": "QA Automation",
+    "level": "Comfortable",
+    "keywords": [
+      "Calabash",
+      "Ruby",
+      "RSpec"
+    ]
+  },{
+    "name": "Web Development",
+    "level": "Comfortable",
+    "keywords": [
+      "React",
+      "Redux architecture",
+      "Progressive Web Apps"
+    ]
+  },{
+    "name": "Additional Proficiencies",
+    "level": "Proficient",
+    "keywords": [
+      "Git",
+      "Scrum",
+      "Jenkins",
+      "Markdown"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Native speaker"
+  }],
+  "interests": [{
+    "name": "IoT",
+    "keywords": [
+      "Bluetooth 4+",
+      "Raspberry Pi",
+      "Node Red",
+      "Arduino"
+    ]
+  },{
+    "name": "Travel",
+    "keywords": [
+      "Hiking",
+      "Kayaking",
+      "Food",
+      "Culture"
+    ]
+  },{
+    "name": "Music",
+    "keywords": [
+      "Guitar",
+      "Keyboard",
+      "Theory"
+    ]
+  }]
+}
