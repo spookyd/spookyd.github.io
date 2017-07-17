@@ -4,7 +4,7 @@ email:       lpdavis13@gmail.com
 author:      Luke Davis
 description: "A simple personal site for my adventures in programming, travelling, and life."
 baseurl:     ""
-url:         "https://spookyd.github.io"
+url:         "https://Lucky13Tech.github.io"
 date_format: "%b %-d, %Y"
 
 for_hire: true
