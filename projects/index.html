@@ -1,0 +1,19 @@
+---
+layout: default
+title: Projects
+tags: project
+nav_id: projects
+show_resume: true
+---
+
+{% assign projects = site.projects | sort: 'order' | reverse %}
+<section class="section--center mdl-grid center-items">
+    <div class="mdl-cell mdl-cell--12-col">
+        <h3>Projects</h3>
+    </div>
+    {% for project in projects %}
+    {% if project.show == true %}
+    {% include project_card.html card_content=project width=8 %}
+    {% endif %}
+    {% endfor %}
+</section>

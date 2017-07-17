@@ -1,0 +1,7 @@
+{% assign layout_class = include.layout %}
+<a href="/" class="{{ layout_class }} {% if page.nav_id == 'overview' %}is-active{% endif %}">Home</a>
+<a href="/resume/luke_davis.pdf" class="{{ layout_class }} {% if page.nav_id == 'resume' %}is-active{% endif %}">Resume</a>
+<!--<a href="/projects" class="{{ layout_class }} {% if page.nav_id == 'projects' %}is-active{% endif %}">Projects</a>-->
+<!--<a href="/blog" class="{{ layout_class }} {% if page.nav_id == 'blog' %}is-active{% endif %}">Blog</a>-->
+<a href="/about" class="{{ layout_class }} {% if page.nav_id == 'about' %}is-active{% endif %}">About Me</a>
+<a href="/contact" class="{{ layout_class }} {% if page.nav_id == 'contact' %}is-active{% endif %}">Contact Me</a>
