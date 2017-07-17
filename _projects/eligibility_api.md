@@ -1,7 +1,7 @@
 ---
 layout: image_card
 title: "Eligibility API"
-company: "Lucky 13 Technologies, LLC."
+company: "Bold Penguin"
 display_date: "March 2017"
 tags: 
 - Ruby
