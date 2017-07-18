@@ -3,9 +3,25 @@
         <h3><p>Want to learn more?</p>View my work experience</h3>
     </div>
     <div class="mdl-cell--12-col center-content">
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-                onclick=" window.open('resume/luke_davis.pdf','_blank')">
+        {% if site.for_hire %}
+        <button id="resume-menu-lower-right"
+                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
             Resume
         </button>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+            for="resume-menu-lower-right">
+            <li class="mdl-menu__item mdl-menu__item--full-bleed-divider"
+                onclick="window.open('resume/luke_davis.pdf','_blank')">
+                PDF
+            </li>
+            <a href="/resume/luke_davis.txt" download><li class="mdl-menu__item">TXT</li></a>
+            <a href="/resume/LUKE_DAVIS.md" download><li class="mdl-menu__item">Markdown</li></a>
+        </ul>
+        {% else %}
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+                onclick="window.open('resume/luke_davis.pdf','_blank')">
+            Resume
+        </button>
+        {% endif %}
     </div>
 </section>

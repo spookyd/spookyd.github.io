@@ -1,5 +1,5 @@
 ---
-layout: image_card
+layout: center
 title: "Eligibility API"
 company: "Bold Penguin"
 display_date: "March 2017"

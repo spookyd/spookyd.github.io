@@ -276,6 +276,10 @@ html, body {
     justify-content: center;
 }
 
+.mdl-menu--bottom-right a {
+    text-decoration: none;
+}
+
 .site-layout .center-content {
     display: flex;
     flex-direction: row;
