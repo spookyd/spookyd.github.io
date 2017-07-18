@@ -1,5 +1,5 @@
 ---
-layout: image_card
+layout: center
 title: "Swift Logger"
 company: "Independent Project"
 display_date: "June 2017"

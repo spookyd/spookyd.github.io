@@ -1,5 +1,5 @@
 ---
-layout: image_card
+layout: center
 title: "D2D"
 company: "Scotts Lawncare"
 display_date: "March 2015"
