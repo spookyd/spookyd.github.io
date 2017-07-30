@@ -288,6 +288,109 @@ html, body {
     align-items: center;
 }
 
+.posts .mdl-card h3 {
+    margin: 0;
+}
+
+.posts .mdl-card h3 a {
+    text-decoration: none;
+}
+
+.posts .mdl-card__media a,
+.posts .mdl-card__title a {
+    color: inherit;
+}
+
+.posts .mdl-card__supporting-text:not(:last-child) {
+    box-sizing: border-box;
+    min-height: 76px;
+}
+
+.posts .mdl-card__media {
+    box-sizing: border-box;
+    background-size: cover;
+    padding: 24px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.posts:not(.posts--blogpost) .mdl-card__supporting-text ~ .mdl-card__supporting-text {
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.posts .mdl-card__media ~ .mdl-card__supporting-text {
+    min-height: 64px;
+}
+
+.posts .meta > *:first-child {
+    margin-right: 16px;
+}
+
+.posts .minilogo {
+    width: 44px;
+    height: 44px;
+    background-image: url('../resume/luke_davis.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 22px;
+    background-color: #F5F5F5;
+}
+
+.posts .mdl-card__supporting-text strong {
+    font-weight: 400;
+}
+
+.posts .meta > * {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.posts .meta {
+    box-sizing: border-box;
+    padding: 16px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: auto;
+}
+
+.posts .mdl-card__supporting-text {
+    width: 100%;
+    padding: 16px;
+    min-height: 64px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 .form-stacked {
     min-height: 300px;
 }

@@ -6,25 +6,29 @@ layout: default
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
 {% endif %}
-
-<div class="post-header mb2">
-  <h1>{{ page.title }}</h1>
-  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
-  {% if page.update_date %}
-    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
-  {% endif %}
-  <span class="post-meta small">
-  {% if page.minutes %}
-    {{ page.minutes }} {{ site.text.post.minute_read }}
-  {% else %}
-    {{ minutes }} {{ site.text.post.minute_read }}
-  {% endif %}
-  </span>
+<div class="mdl-layout__tab-panel is-active" id="{{ page.nav_id }}">
+  <section class="section--center mdl-grid mdl-grid--no-spacing">
+    <div class="mdl-cell mdl-cell--12-col">
+      <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+        {% if page.update_date %}
+        <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
+        {% endif %}
+        <span class="post-meta small">
+        {% if page.minutes %}
+          {{ page.minutes }} {{ site.text.post.minute_read }}
+        {% else %}
+          {{ minutes }} {{ site.text.post.minute_read }}
+        {% endif %}
+        </span>
+      </header>
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </div>
+  </section>
 </div>
-
-<article class="post-content">
-  {{ content }}
-</article>
 
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}
