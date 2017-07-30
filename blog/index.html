@@ -5,21 +5,32 @@ tags: blog
 nav_id: blog
 ---
 {% assign posts_count = (paginator.posts | size) %}
-
-<div class="blog">
+<section class="section--center mdl-grid center-items">
     {% if posts_count > 0 %}
     <div class="posts">
         {% for post in paginator.posts %}
-        <div class="post py3">
-            <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-            <span class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </span>
+        <div class="mdl-card amazing mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+            <div class="mdl-card__media mdl-color-text--grey-50">
+                <h3 class="h1 post-title quote">
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+                        {{ post.title }}
+                    </a>
+                </h3>
+            </div>
+            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                {% if post.summary %}
+                    {{ post.summary }}
+                {% else %}
+                    {{ post.excerpt }}
+                {% endif %}
+            </div>
+            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+                <div class="minilogo"></div>
+                <div>
+                    <strong>{{ site.author }}</strong>
+                    <span class="post-meta">{{ post.date | date: site.date_format }}</span>
+                </div>
+            </div>
         </div>
         {% endfor %}
     </div>
@@ -28,4 +39,4 @@ nav_id: blog
     {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
     {% endif %}
-</div>
+</section>
