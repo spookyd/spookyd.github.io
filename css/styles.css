@@ -391,6 +391,14 @@ html, body {
     align-items: center;
 }
 
+.post-header img {
+    width: 100%;
+}
+
+.post-content {
+    margin-top: 64px;
+}
+
 .form-stacked {
     min-height: 300px;
 }

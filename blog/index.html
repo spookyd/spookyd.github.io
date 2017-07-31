@@ -10,7 +10,14 @@ nav_id: blog
     <div class="posts">
         {% for post in paginator.posts %}
         <div class="mdl-card amazing mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+            {% if post.image %}
+            <div class="mdl-card__media mdl-color-text--grey-50"
+                 style=" background: url('{{ post.image }}');
+                        background-position: center;
+                        height: 175px;">
+            {% else %}
             <div class="mdl-card__media mdl-color-text--grey-50">
+            {% endif %}
                 <h3 class="h1 post-title quote">
                     <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
                         {{ post.title }}
