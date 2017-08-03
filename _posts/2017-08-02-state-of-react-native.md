@@ -47,7 +47,7 @@ the potential client really wants a React Native developer. So,
 reluctantly I jumped into React Native development. Now, keep in mind I
 despise JavaScript, so I went into this project with a chip on my
 shoulder. All and All, I must say that I was pleasantly surprised at how
-much I liked developing the React Native; it was very enjoyable to write
+much I liked development with React Native; it was very enjoyable to write
 code. Separation of concerns was trivial. I used
 [Redux](http://redux.js.org/), which was also fantastic! However, there
 are definitely some frustrations and concerns about using React Native.
@@ -141,7 +141,7 @@ package X in your application. Package X depends on React Native
 releasing its updates so that package X can be updated. Once the 
 developers of package X finally release their updates you can start
 implementing it in your application, and that assumes package X is still
-supported. Assume happy path and this still could significantly reduces
+supported. Assume happy path and this still could significantly reduce
 your OS preparation window.
 
 #### Longevity
@@ -159,7 +159,7 @@ Nothing is guaranteed!
 I hesitated even bringing up the
 [React License](https://github.com/facebook/react/issues/7293) because
 there are so many other places to read the on going debate but I need to
-just to touch on one small topic. 
+touch on one small topic. 
 
 No matter the true intention of the license verbiage one thing is for
 sure, you better run this by your clients or your own legal department
