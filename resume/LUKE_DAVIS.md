@@ -53,7 +53,7 @@ Lead engineer on the Wendy's eCommerce Application Development team with primary
 
 * Led iOS application refactor of the current Wendy's application involving converting code base from a singular Objective C code base to Swift modules, which led to a 1438% decrease in reported bugs
 * Guided Junior and Core members in TDD practices, resulting in a code coverage increase from 6% to 75%
-* Partnered with stakeholders and development team to align requirements on the new Wendy's Loyalty Program
+* Partnered with stakeholders to vertically slice a large set of requirements to reduce the risks of an application redesign project
 * Worked directly with UX team to ensure a unified and polished product
 
 11/2014 to 06/2015
