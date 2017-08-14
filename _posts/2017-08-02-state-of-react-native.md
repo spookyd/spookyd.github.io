@@ -3,7 +3,7 @@ layout: post
 title: State of React Native
 image: /blog/images/state-of-react-native.jpg
 date: 2017-08-02 14:05
-categories:
+categories: react-native es6 npm
 ---
 
 This blog post is not 100% directed towards React Native but on the 
