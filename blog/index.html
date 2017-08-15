@@ -13,8 +13,10 @@ nav_id: blog
             {% if post.image %}
             <div class="mdl-card__media mdl-color-text--grey-50"
                  style=" background: url('{{ post.image }}');
-                        background-position: center;
-                        height: 175px;">
+                         background-position: center;
+                         background-size: cover;
+                         background-repeat: no-repeat;
+                         height: 175px;">
             {% else %}
             <div class="mdl-card__media mdl-color-text--grey-50">
             {% endif %}
