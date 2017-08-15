@@ -71,18 +71,23 @@ with life cycles and allows for a simple clean unit test.
 
 A test can now be as simple as:
 
-```
+```swift
 
-func testDescriptionTitle() {
-    XCTAssertNil(DreamDetailViewController.Section.preview.title)    
-}
+    func testDescriptionTitle() {
+        XCTAssertNil(DreamDetailViewController.Section.preview.title)    
+    }
 
 ``` 
 
 Another advantage is the initializers. Since an initializer is provided 
 for both the `indexPath` and the `section` we can now eliminate accessor 
-code like `if index.section == 0 { return 'Section title' }`. We get 
-this functionality for free for using the enum.
+code like: 
+
+```swift 
+    if index.section == 0 { return "Section title" }
+``` 
+
+We get this functionality for free for using the enum.
 
 This power is not limited to the examples above. You will be able to add
 what ever methods that make sense for your use case.  

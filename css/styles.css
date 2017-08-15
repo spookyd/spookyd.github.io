@@ -406,3 +406,19 @@ html, body {
 .form-stacked .mdl-textfield {
     width: 100%;
 }
+
+blockquote::before {
+    content: "" !important;
+}
+
+blockquote {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding-left: 16px;
+    border-left: 3px solid #ccc;
+}
+
+blockquote::after {
+    content: "" !important;
+}

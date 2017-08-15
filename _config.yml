@@ -125,6 +125,11 @@ text:
 
 # Build settings
 markdown:     kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
