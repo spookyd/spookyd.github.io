@@ -154,21 +154,24 @@ going anywhere anytime soon. But that is a big scary assumption, don't
 forget about [Parse](https://en.wikipedia.org/wiki/Parse_(platform)).
 Nothing is guaranteed! 
 
-#### React Native License
+#### React Native License [Updated: 9-27-2017]
 
-I hesitated even bringing up the
+> This is no longer an issue with Facebook addressing everyone's 
+concerns and switching to an MIT license. [More Info](https://code.facebook.com/posts/112130496157735/explaining-react-s-license/) 
+
+~~I hesitated even bringing up the
 [React License](https://github.com/facebook/react/issues/7293) because
 there are so many other places to read the on going debate but I need to
-touch on one small topic. 
+touch on one small topic.~~ 
 
-No matter the true intention of the license verbiage one thing is for
+~~No matter the true intention of the license verbiage one thing is for
 sure, you better run this by your clients or your own legal department
 before using React Native. Look, the last thing you would ever want is
 to be months into development when all of a sudden Seth from the legal
 department storms in screaming "Please tell me we aren't using React
 Native!" I am not saying there is anything scary about what Facebook has
 in its fine print but the legal department where you are working might
-not like it. It is just good to get it cleared first.
+not like it. It is just good to get it cleared first.~~
 
 ### Conclusion
 
