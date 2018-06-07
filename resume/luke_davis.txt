@@ -1,8 +1,8 @@
 Luke Davis
 Software Developer
 
-297 Sumption Dr.
-Columbus, Ohio 43230
+227 E Street
+Redwood City, California 94063
 Phone: (740)334-8424
 E-mail: lpdavis13@gmail.com
 Linked In: https://www.linkedin.com/in/lpdavis/
@@ -18,9 +18,9 @@ Self-driven individual with unmatched passion to solve business needs utilizing 
 SKILLS
 -----------------------------------------------------------------------------
 
-iOS Development: Swift 3, Objective C, XCTest, Carthage, Alamofire
+iOS Development: Swift 3, Objective C, XCTest, Carthage, Apollo
 Android Development: Android 7, Java, Volley, Mockito
-Backend Development: Node.js (Express), ES5/ES6, Ruby on Rails 5, Spring, Docker
+Backend Development: Node.js (Express), ES5/ES6, Ruby on Rails 5, GraphQL, Docker
 Clean Code: Object Oriented Design, SOLID, Protocol Oriented Design, TDD/BDD
 Database: Postgres, MySQL, Mongo, SQLite
 QA Automation: Calabash, Ruby, RSpec
@@ -31,6 +31,17 @@ Additional Proficiencies: Git, Scrum, Jenkins, Markdown
 EXPERIENCE
 -----------------------------------------------------------------------------
 
+
+11/2017 to present
+Senior iOS Engineer
+ZeeMee  - https://www.zeemee.com
+Redwood City, CA
+Senior engineer on the iOS team providing technical support and new features for a mobile application which allows colleges to engage with students.
+
+* Optimized client side GraphQL queries by establishing patterns and client setup based on best practices
+* Increased user retention by 50% through implementation of a flexible notification system, which uses a custom router, allowing easy addition of multiple types of notifications as well as deep linking
+* Successfully integrated a new ejabberd chat client, allowing for direct communications between colleges and students
+* Added a custom live streaming solution enabling both broadcasting and viewing from the user's mobile device
 
 10/2014 to present
 Owner, Lead Developer
