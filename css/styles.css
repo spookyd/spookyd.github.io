@@ -407,6 +407,19 @@ html, body {
     width: 100%;
 }
 
+#portfolio-header {
+    background: linear-gradient(rgb(33, 150, 243), rgba(0,0,0,0))
+}
+
+#portfolio-header h1 {
+    color: #ffffff;
+}
+
+#portfolio-header p {
+    padding-top: 8px;
+    text-align: center;
+}
+
 blockquote::before {
     content: "" !important;
 }

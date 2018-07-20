@@ -1,15 +1,31 @@
 {% assign card = include.card_content %}
 {% assign width = include.width %}
 <div class=" mdl-card mdl-cell--{{ width }}-col mdl-cell--middle mdl-shadow--2dp">
-    <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">{{ card.title }}</h2>
+    {% if project.image %}
+    <div class="mdl-card__media mdl-color-text--grey-50"
+         style=" background: url('{{ project.image }}');
+                         background-position: center;
+                         background-size: cover;
+                         background-repeat: no-repeat;
+                         height: 175px;
+                         background-color: #90c9f8;">
+    {% endif %}
+        <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">{{ card.title }}</h2>
+        </div>
+    {% if project.image %}
     </div>
+    {% endif %}
     <div class="mdl-card__supporting-text">
         {{ card.content }}
     </div>
     <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href={{ project.link }}>
+            {% if project.link_name == "Lucky13" %}
+            View Details
+            {% else %}
             View Source
+            {% endif %}
         </a>
     </div>
     <!--<div class="mdl-card__menu">-->

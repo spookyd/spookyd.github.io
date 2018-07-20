@@ -12,7 +12,7 @@
     {% include fixed_header.html %}
     <main class="mdl-layout__content">
         {{ content }}
-        {% if site.for_hire %}
+        {% if site.for_hire and page.show_resume %}
         {% include resume_footer.html %}
         {% endif %}
         {% include footer.html %}
