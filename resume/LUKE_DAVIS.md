@@ -8,7 +8,7 @@
 Redwood City, California 94063
 Phone: (740)334-8424
 E-mail: lpdavis13@gmail.com
-Linked In: https://www.linkedin.com/in/lpdavis/
+LinkedIn: https://www.linkedin.com/in/lpdavis/
 Github: https://github.com/spookyd
 
 ## SUMMARY
@@ -21,14 +21,15 @@ Github: https://github.com/spookyd
 
 ---
 
-iOS Development: Swift 3, Objective C, XCTest, Carthage, Apollo
-Android Development: Android 7, Java, Volley, Mockito
-Backend Development: Node.js (Express), ES5/ES6, Ruby on Rails 5, GraphQL, Docker
-Clean Code: Object Oriented Design, SOLID, Protocol Oriented Design, TDD/BDD
-Database: Postgres, MySQL, Mongo, SQLite
-QA Automation: Calabash, Ruby, RSpec
-Web Development: React, Redux architecture, Progressive Web Apps
-Additional Proficiencies: Git, Scrum, Jenkins, Markdown
+Programming Languages: Swift 4, Objective C, Java, Ruby
+iOS Frameworks: UIKit, AVFoundation, CoreLocation, GCD, CoreBluetooth, CoreData
+Third Party Libraries: Apollo-ios, JSQMessageViewController, Alamofire, AlamofireImage, XMPP Framework, Lottie-ios
+Network: REST, GraphQL, JSON, XML
+Persistence: SQLite, Postgres, MySQL, MongoDB
+Testing: XCTest, Quick, Nimble, Cucumber, RSpec
+Development Tools: Xcode, AppCode, Carthage, CocoaPods
+Clean Code: SwiftLint, Object Oriented Design, SOLID, Protocol Oriented Design, TDD/BDD
+Additional Proficiencies: Git, Scrum, Jenkins, Travis CI, Markdown, Rake, Make
 
 ## EXPERIENCE
 
@@ -39,86 +40,76 @@ Additional Proficiencies: Git, Scrum, Jenkins, Markdown
 Senior iOS Engineer
 ZeeMee  - https://www.zeemee.com
 Redwood City, CA
-Senior engineer on the iOS team providing technical support and new features for a mobile application which allows colleges to engage with students.
+Senior engineer on a small iOS team providing technical support and new features for ZeeMee’s mobile application.
 
-* Optimized client side GraphQL queries by establishing patterns and client setup based on best practices
-* Increased user retention by 50% through implementation of a flexible notification system, which uses a custom router, allowing easy addition of multiple types of notifications as well as deep linking
-* Successfully integrated a new ejabberd chat client, allowing for direct communications between colleges and students
-* Added a custom live streaming solution enabling both broadcasting and viewing from the user's mobile device
+* Identified UI performance bottlenecks and executed plan of action to improve video feed
+* Designed and implemented routing system allowing for flexible navigation within the application as well as through deep links
+* Integrated a custom ejabberd client, enabling live communications directly within the application
+* Collaborated with design team to create pixel perfect custom photo library, video recorder and video editor
 
 10/2014 to present
 Owner, Lead Developer
 Lucky 13 Technologies, LLC.  - http://lucky13.technology
 Columbus, OH
-Partnering with software firms to build custom mobile applications and backend services for customers such as Scotts® and Bold Penguin.
+Partnering with software firms to build custom mobile applications and backend services.
 
-* Designed and implemented features providing in app audio/video chat capabilities for a social networking platform
-* Developed a custom Android based door to door sales app which allowed for card present credit card transactions
-* Provided support for existing PHP application used for sales rep management
-* Created an API only Rails 5 application used for an insurance eligibility rules engine
+* Weigl Works - Designed and implemented AppKit UI components for a show control MacOS application
+* Scotts® - Developed a custom Android based door to door sales app, which allowed for card present credit card transactions
+* Bold Penguin - Created an API only Rails 5 application used for an insurance eligibility rules engine
+* Tap by Lucky 13 - Personal iOS productivity app, written in Swift and uses ReSwift for unidirectional data flow
 
 06/2015 to 07/2017
 Lead Mobile Application Architect, eCommerce
 The Wendy’s Company  - http://wendys.com
 Columbus, OH
-Lead engineer on the Wendy's eCommerce Application Development team with primary focus on the iOS and Android platforms, while providing technical guidance on best development and Scrum practices across the eCommerce Application Department.
+Lead engineer on the Wendy's eCommerce Application Development team with primary focus on the iOS and Android platforms.
 
-* Led iOS application refactor of the current Wendy's application involving converting code base from a singular Objective C code base to Swift modules, which led to a 1438% decrease in reported bugs
+* Led refactor of the Wendy's iOS app, converting from a singular Objective C code base to Swift modules, resulting in a 1438% decrease in reported bugs
 * Guided Junior and Core members in TDD practices, resulting in a code coverage increase from 6% to 75%
-* Partnered with stakeholders to vertically slice a large set of requirements to reduce the risks of an application redesign project
-* Worked directly with UX team to ensure a unified and polished product
+* Collaborated directly with UX team to ensure a unified and polished product
+* Created an internal iOS application used for debugging Bluetooth Beacon installations within restaurants
 
 11/2014 to 06/2015
 Senior Application Developer, eCommerce
 The Wendy’s Company  - http://wendys.com
 Columbus, OH
-Joined Wendy's to form and lead new eCommerce development team as part of the new Wendy's innovation space, 90º Labs. Worked with the department Director and other lead engineers to establish the foundation of the new department
+Original member of the Wendy’s Company innovation center, 90º Labs.
 
-* Developed a Kiosk POC, which has led to the self-ordering kiosks that are deployed today
-* Leveraged Bluetooth Beacons and Geofencing techniques to provide a unique ordering experience for iOS and Android users
-* Focused effort on prototyping many of the features now implemented in the Wendy's mobile applications
+* Instrumental in the development and launch of the Wendy’s iOS mobile ordering application; written in Objective C
+* Created custom scripts for both App Store and Enterprise application deployments using Jenkins jobs
+* Developed an automatic order fulfillment framework using Swift, Core Bluetooth and Core Location, providing mobile users with a unique restaurant experience
 * Instrumental in the development of the product foundation, CI, and Automation Scripts to support the new iOS, Android, and Web applications; https://itunes.apple.com/us/app/wendys/id540518599?mt=8, https://play.google.com/store/apps/details?id=com.wendys.nutritiontool&hl=en
 
 02/2013 to 11/2014
 Solutions Developer
 Leading EDJE, LLC.  - http://leadingedje.com/
 Columbus, OH
-Member of solutions delivery team, providing expertise in custom applications development and business solutions utilizing leading edge technologies.
+Member of solutions delivery team, providing expertise in custom application development and unique business solutions.
 
-* Developed new features on a client/admin portal project utilizing Java backend and frontend technologies
-* Built a native Android forklift management application; also, exposed HTTP endpoints using Java technologies, http://www.crown.com/en-us/fleet-management/infolink.html
-* Created a warehouse fulfillment solution proof of concepts leveraging Google Glass and Bluetooth 4.0
-* Performed security audit, based on OWASP for mobile guidelines, for DSW’s eCommerce iOS application
+* Crown Infolink®(http://www.crown.com/en-us/fleet-management/infolink.html) - Built fork lift management solution using Android for client and Java technologies to expose HTTP endpoints
+* DSW - Performed security audit, based on OWASP for mobile guidelines, for DSW’s eCommerce iOS application
 
 06/2011 to 02/2013
 Developer
 Motorists Insurance Group  - https://www.motoristsinsurancegroup.com/who-we-are/affiliates/motorists-mutual
 Columbus, OH
-Developed and supported new features for existing home and life insurance agent portals as well as the Motorists Mobile Application projects.
+Developed and supported new features for existing home and life insurance agent portals, as well as the Motorists Insurance mobile application project.
 
-* Provided support for Home Lines Agent Portal application utilizing Java technologies
-* Migrated the internal Life Insurance Workflow system from VB to C# along with creating a unit test suite
-* Mentored in Android and iOS development, testing, and deployment for the Motorists Insurance and Iowa Insurance mobile applications; https://itunes.apple.com/us/app/motorists-mutual-mobile/id503935355?mt=8, https://play.google.com/store/apps/details?id=com.motorists&hl=en
+* Mentored in Android and iOS development, testing, and deployment for the Motorists Insurance mobile applications https://itunes.apple.com/us/app/motorists-mutual-mobile/id503935355?mt=8, https://play.google.com/store/apps/details?id=com.motorists&hl=en
 
-2012 to 2013
-Partner, Application Developer
+2011 to 2013
+Founder/ Lead Developer
 DesignLinx, LLC. 
 Newark, OH
-Designed and created an interactive wedding planning website, Wedding Linx, which connected DIY wedding planners with vendors.
+Founder of an interactive wedding planning website, WeddingLinx, which connected DIY wedding planners with vendors.
 
-* Leveraged ASP.NET 3.5 to create wedding planning platform with in app messaging, rating, and vendor bidding systems
-* Designed application data model and implemented on SQL Server database, including tables, stored procedures, and triggers
-* Developed a module integrated with authorize.net to add payment functionality to the site
 
 2000 to 2012
 Electrical Journeyman, Foreman
 Goodin Electric  - http://www.goodinelectric.com/
 Newark, OH
-Lead foreman on over 20 commercial and industrial projects, with varying environments, team sizes and complexity.
+Lead foreman on over 20 commercial and industrial projects, with varying environments, team sizes and complexities.
 
-* Installation of a diverse set of electrical systems, ranging from advanced lighting controls to custom plastic recycling automation to commercial grade kitchen equipment
-* Collaborated on design and installation of multiple types of motor control applications
-* Worked on, and built, industrial automation machinery utilizing both low and high voltage electrical systems
 
 
 ## CERTIFICATIONS
@@ -160,3 +151,5 @@ IoT: Bluetooth 4+, Raspberry Pi, Node Red, Arduino
 Travel: Hiking, Kayaking, Food, Culture
 
 Music: Guitar, Keyboard, Theory
+
+Other: Woodworking, iOS Development
