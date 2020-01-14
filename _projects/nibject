@@ -1,0 +1,18 @@
+---
+layout: center
+title: "NibJect"
+company: "Independent Project"
+display_date: "January 2020"
+tags: 
+- Swift
+show: true
+show_in_overview: true
+link: https://github.com/spookyd/nibject
+link_name: Github
+order: 90
+---
+
+NibJect is a pet project I made over the holiday's to explore the 
+building a tool that would take a `.xib` file and generate Swift code.
+This is now a tool that I use almost daily to accelerate UI development!
+🚀
